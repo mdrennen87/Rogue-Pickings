@@ -1,0 +1,194 @@
+/* Base styles */
+
+body {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Grid */
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half.width {
+    margin: 0 auto;
+    float: left;
+    width: 600px;
+}
+
+.third-width {
+    float: left;
+    width: 395px;
+}
+
+/* Header */
+
+header {
+    height: 100px;
+    border-bottom: solid 3px #77a466;
+    margin: 0 auto;
+}
+
+header h1 {
+    color: black; 
+    font-weight: 700px;
+    font-size: 30px;
+    text-transform: uppercase;
+    float: left;
+    margin: 0;
+    padding: 30px 0;
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+nav {
+    float: right;
+    padding: 25px 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #77a466;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.green-beans-img {
+    height: 288px;
+    border-bottom: solid 3px #77a466;
+    padding: 0;
+    float: left;
+}
+
+/* BODY */
+
+/* About section */
+
+#about {
+    float: left;
+}
+
+#about h2 {
+    color: #77a466;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 23px;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+#about p {
+    font-size: 16px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+/* Categories */
+
+#categories {
+    border-top: solid 1px #eee;
+    clear: both;
+}
+
+/* Menu section */
+
+#menu div {
+    border-right: solid 1px #eee;
+    height: 200px;
+}
+
+#menu h3 {
+    font-size: 12px;
+    line-height: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 20px 5px 5px;
+}
+
+#menu ul li {
+    color: #77a466;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration: none;
+    list-style: none;
+    padding-bottom: 20px;
+    margin-left: -35px;
+}
+
+/* Reviews section */
+
+#reviews div {
+    height: 200px;
+}
+
+#reviews h3 {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 25px;
+    text-transform: uppercase;
+    padding-left: 30px;
+}
+
+#reviews p {
+    font-size: 16px;
+    line-height: 21px;
+    padding: 0 30px;
+    text-align: justify;
+}
+
+/* Contact section */
+
+#contact div {
+    border-left: solid 1px #eee;
+    height: 200px;
+}
+
+#contact h3 {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 25px;
+    text-transform: uppercase;
+    padding-left: 30px;
+}
+
+#contact p {
+    padding-left: 30px;
+}
+
+/* Footer */
+
+footer div {
+    margin: 0 auto;
+    width: 1200px;
+    clear: both;
+    border-top: solid 1px #eee;
+}
+
+footer h3 {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10px;
+    clear: both;
+}
+
+footer h3 span {
+    font-family: Galada, cursive, sans-serif;
+    font-weight: normal;
+    color: #77a466;
+    text-transform: lowercase;
+}
+
+
